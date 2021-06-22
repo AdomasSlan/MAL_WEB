@@ -10,7 +10,7 @@ echo "    <li class='nav-item'>";
 echo "        <a class='nav-link' data-toggle='tab' href='#ova'>ova</a>";
 echo "    </li>";
 echo "    <li class='nav-item'>";
-echo "        <a class='nav-link' data-toggle='tab' href='#movie'>manhwa</a>";
+echo "        <a class='nav-link' data-toggle='tab' href='#movie'>movie</a>";
 echo "    </li>";
 echo "</ul>";
 echo "<div id=\"myTabContent\" class=\"tab-content\">";
