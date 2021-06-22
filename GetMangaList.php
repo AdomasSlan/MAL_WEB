@@ -1,0 +1,33 @@
+<?php
+echo "<ul class='nav nav-tabs'>";
+echo "    <li class='nav-item'>";
+echo "        <a class='nav-link active' data-toggle='tab' href='#all'>All</a>";
+echo "    </li>";
+echo "    <li class='nav-item'>";
+echo "        <a class='nav-link' data-toggle='tab' href='#manga'>manga</a>";
+echo "    </li>";
+echo "    <li class='nav-item'>";
+echo "        <a class='nav-link' data-toggle='tab' href='#light_novels'>light novels</a>";
+echo "    </li>";
+echo "    <li class='nav-item'>";
+echo "        <a class='nav-link' data-toggle='tab' href='#manhwa'>manhwa</a>";
+echo "    </li>";
+echo "    <li class='nav-item'>";
+echo "        <a class='nav-link' data-toggle='tab' href='#manhua'>manhua</a>";
+echo "    </li>";
+echo "</ul>";
+echo "<div id=\"myTabContent\" class=\"tab-content\">";
+echo "  <div class=\"tab-pane fade show active\" id=\"all\"></div>";
+echo "  <div class=\"tab-pane fade\" id=\"manga\"></div>";
+echo "  <div class=\"tab-pane fade\" id=\"light_novels\"></div>";
+echo "  <div class=\"tab-pane fade\" id=\"manhwa\"></div>";
+echo "  <div class=\"tab-pane fade\" id=\"manhua\"></div>";
+echo "</div>";
+
+echo "<script>";
+echo "MangaList(\"all\");";
+echo "MangaList(\"manga\");";
+echo "MangaList(\"lightnovels\");";
+echo "MangaList(\"manhwa\");";
+echo "MangaList(\"manhua\");";
+echo "</script>";
